@@ -1,0 +1,16 @@
+.hero-section {
+  > .headers {
+    > .main-header {
+      color: #fff;
+      font-size: 70px;
+      font-style: italic;
+      font-weight: 900;
+    }
+    > p {
+      color: #fff;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+}
