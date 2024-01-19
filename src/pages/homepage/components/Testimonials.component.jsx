@@ -31,7 +31,7 @@ const Testimonials = () => {
             m={"auto"}
           />
           <TestimonialBox textAlign={"center"} color={"#fff"}>
-            <Box as="p" fontSize={"24px"}>
+            <Box as="p" fontSize={"22px"}>
               Just had to shout out to United IT Club – seriously unique! Sleek
               design, easy navigation, and killer content. From trends to tech
               talks, they've got the 411. Kudos to the team for creating this
@@ -52,7 +52,7 @@ const Testimonials = () => {
             m={"auto"}
           />
           <TestimonialBox textAlign={"center"} color={"#fff"}>
-            <Box as="p" fontSize={"24px"}>
+            <Box as="p" fontSize={"22px"}>
               Just had to shout out to United IT Club – seriously unique! Sleek
               design, easy navigation, and killer content. From trends to tech
               talks, they've got the 411. Kudos to the team for creating this
@@ -73,7 +73,7 @@ const Testimonials = () => {
             m={"auto"}
           />
           <TestimonialBox textAlign={"center"} color={"#fff"} m="auto">
-            <Box as="p" fontSize={"24px"}>
+            <Box as="p" fontSize={"22px"}>
               Just had to shout out to United IT Club – seriously unique! Sleek
               design, easy navigation, and killer content. From trends to tech
               talks, they've got the 411. Kudos to the team for creating this

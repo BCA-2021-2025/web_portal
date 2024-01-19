@@ -9,9 +9,9 @@ const AboutUs = () => {
       <Grid gridTemplateColumns={"repeat(2,1fr)"} columnGap={"66px"} rowGap={"56px"}>
         <Image src="/assets/images/homepage/logo.png" />
         <IntroBox>
-          <Heading fontSize={"48px"} color={"#fff"}>
+          <Box fontSize={"48px"} color={"#fff"}>
             About Us
-          </Heading>
+          </Box>
           <Box as="p" fontSize={"24px"} color={"#fff"}>
             The United IT Club (UITC), established in 2024, stands as a beacon
             within the realm of Information Technology at United College.
@@ -21,9 +21,9 @@ const AboutUs = () => {
           </Box>
         </IntroBox>
         <SubIntroBox>
-          <Heading textAlign={"center"} fontSize={"36px"} color={"#fff"}>
+          <Box textAlign={"center"} fontSize={"36px"} color={"#fff"}>
             Our Mission
-          </Heading>
+          </Box>
           <Box as="p" textAlign={"center"} fontSize={"18px"} color={"#fff"}>
             Our mission is to foster an environment where diverse minds converge
             to spark innovation and harness the power of collaboration.
@@ -35,9 +35,9 @@ const AboutUs = () => {
             position={"absolute"}
           ></SubIntroBox>
           <Box padding={"30px"} w={"550px"} h={"234px"} position={"absolute"} top={"0"}>
-            <Heading textAlign={"center"} fontSize={"36px"} color={"#fff"}>
+            <Box textAlign={"center"} fontSize={"36px"} color={"#fff"}>
               Our Vision
-            </Heading>
+            </Box>
             <Box as="p" textAlign={"center"} fontSize={"18px"} color={"#fff"}>
               At the United IT Club, we see a future where technology sparks
               positive change. We believe innovation should drive everything we

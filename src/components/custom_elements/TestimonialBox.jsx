@@ -40,6 +40,7 @@ const TestimonialBox = ({
         p={p}
         color={color}
         textAlign={textAlign}
+        backgroundSize={"contain"}
       >
         {children}
       </Box>

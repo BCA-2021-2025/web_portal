@@ -1,4 +1,4 @@
-import { Box, Image } from "@chakra-ui/react";
+import { Box, Heading, Image } from "@chakra-ui/react";
 import * as react from "react";
 
 const HeadingBox = ({
@@ -22,7 +22,7 @@ const HeadingBox = ({
 }) => {
   return (
     <>
-      <Box
+      <Heading
         backgroundImage={"url('/assets/images/homepage/headingBox.png')"}
         backgroundRepeat={"no-repeat"}
         padding={"30px"}
@@ -46,7 +46,7 @@ const HeadingBox = ({
         transform={transform}
       >
         {children}
-      </Box>
+      </Heading>
     </>
   );
 };
