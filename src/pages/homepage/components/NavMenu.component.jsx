@@ -19,7 +19,7 @@ const NavMenu = () => {
         pb={"19px"}
         justifyContent={"space-between"}
       >
-        <Image src="./src/assets/images/logos/logo.svg" />
+        <Image src="/assets/images/logos/logo-sm.png" />
         <Grid
           gridTemplateColumns={"repeat(4,max-content)"}
           gap={"33px"}

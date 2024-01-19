@@ -1,9 +1,10 @@
 import { Box, Image } from "@chakra-ui/react";
 import * as react from "react";
 
-const TestimonialBox = ({
+const HeadingBox = ({
   fontSize,
   fontWeight,
+  fontStyle,
   textAlign,
   color,
   m,
@@ -17,22 +18,24 @@ const TestimonialBox = ({
   pe,
   p,
   children,
+  transform,
 }) => {
   return (
     <>
       <Box
-        backgroundImage={"url('/assets/images/homepage/testimonialBox.png')"}
+        backgroundImage={"url('/assets/images/homepage/headingBox.png')"}
         backgroundRepeat={"no-repeat"}
-        padding={"35px"}
+        padding={"30px"}
         fontSize={fontSize}
+        fontStyle={fontStyle}
         m={m}
         mt={mt}
         mb={mb}
         ms={ms}
         me={me}
         fontWeight={fontWeight}
-        w={"509px"}
-        h={"309px"}
+        w={"466px"}
+        h={"146px"}
         pt={pt}
         pb={pb}
         ps={ps}
@@ -40,6 +43,7 @@ const TestimonialBox = ({
         p={p}
         color={color}
         textAlign={textAlign}
+        transform={transform}
       >
         {children}
       </Box>
@@ -47,4 +51,4 @@ const TestimonialBox = ({
   );
 };
 
-export default TestimonialBox;
+export default HeadingBox;

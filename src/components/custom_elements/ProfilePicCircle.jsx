@@ -1,7 +1,7 @@
 import { Box, Image } from "@chakra-ui/react";
 import * as react from "react";
 
-const TestimonialBox = ({
+const ProfilePicCircle = ({
   fontSize,
   fontWeight,
   textAlign,
@@ -16,14 +16,16 @@ const TestimonialBox = ({
   ps,
   pe,
   p,
+  src,
   children,
 }) => {
   return (
     <>
       <Box
-        backgroundImage={"url('/assets/images/homepage/testimonialBox.png')"}
+        backgroundImage={
+          "url('/assets/images/homepage/profilePicContainer.png')"
+        }
         backgroundRepeat={"no-repeat"}
-        padding={"35px"}
         fontSize={fontSize}
         m={m}
         mt={mt}
@@ -31,8 +33,8 @@ const TestimonialBox = ({
         ms={ms}
         me={me}
         fontWeight={fontWeight}
-        w={"509px"}
-        h={"309px"}
+        w={"180px"}
+        h={"180px"}
         pt={pt}
         pb={pb}
         ps={ps}
@@ -41,10 +43,10 @@ const TestimonialBox = ({
         color={color}
         textAlign={textAlign}
       >
-        {children}
+        <Image src={src} rounded={"50%"} padding={"35px"} w={"180px"} height={"180px"} objectFit={"cover"}/>
       </Box>
     </>
   );
 };
 
-export default TestimonialBox;
+export default ProfilePicCircle;
