@@ -61,7 +61,7 @@ const Testimonials = () => {
             {/* Personb's name and position */}
             <Box>
               <Box as="p">-Nilaw Manandhar</Box>
-              <Box as="p">Co-founder, Byaparcraft</Box>
+              <Box as="p">Co-founder, Byaparcraft.</Box>
             </Box>
           </TestimonialBox>
         </Box>
