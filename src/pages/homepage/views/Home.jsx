@@ -5,6 +5,7 @@ import Hero from "../components/Hero.component";
 import TestimonialBox from "../../../components/custom_elements/TestimonialBox";
 import AboutUs from "../components/AboutUs.component";
 import Testimonials from "../components/Testimonials.component";
+import Footer from "../components/Footer.component";
 
 const Home = () => {
   return (
@@ -25,16 +26,9 @@ const Home = () => {
       <Container maxW={"6xl"} mb={"118px"}>
         <Testimonials />
       </Container>
-      <TestimonialBox
-        color={"#fff"}
-        fontSize={"24px"}
-        textAlign={"center"}
-        mt={"400px"}
-      >
-        Huge shoutout to United IT Club! Navigating their user-friendly site is
-        a joy. The constant stream of up-to-date content keeps me in the tech
-        loop. Cheers to a brilliant platform!
-      </TestimonialBox>
+      <Container maxW={"6xl"} mb={"118px"}>
+        <Footer />
+      </Container>
     </>
   );
 };
