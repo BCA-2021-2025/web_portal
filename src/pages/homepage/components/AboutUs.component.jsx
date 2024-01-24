@@ -6,9 +6,13 @@ import SubIntroBox from "../../../components/custom_elements/SubIntroBox";
 const AboutUs = () => {
   return (
     <Box>
-      <Grid gridTemplateColumns={"repeat(2,1fr)"} columnGap={"66px"} rowGap={"56px"}>
-        <Image src="/assets/images/homepage/logo.png" />
-        <IntroBox>
+      <Grid
+        gridTemplateColumns={{ base: "repeat(1,1fr)", xl: "repeat(2,1fr)" }}
+        columnGap={{ xl: "55px", "2xl": "66px" }}
+        rowGap={"56px"}
+      >
+        <Image src="/assets/images/homepage/logo.png" m={"auto"} />
+        <IntroBox m={"auto"}>
           <Box fontSize={"48px"} color={"#fff"}>
             About Us
           </Box>
@@ -20,7 +24,7 @@ const AboutUs = () => {
             research platform.
           </Box>
         </IntroBox>
-        <SubIntroBox>
+        <SubIntroBox m={"auto"}>
           <Box textAlign={"center"} fontSize={"36px"} color={"#fff"}>
             Our Mission
           </Box>
@@ -29,12 +33,18 @@ const AboutUs = () => {
             to spark innovation and harness the power of collaboration.
           </Box>
         </SubIntroBox>
-        <Box position={"relative"}>
+        <Box m={"auto"} position={"relative"}>
           <SubIntroBox
             transform={"rotateY(180deg)"}
             position={"absolute"}
           ></SubIntroBox>
-          <Box padding={"30px"} w={"550px"} h={"234px"} position={"absolute"} top={"0"}>
+          <Box
+            padding={"30px"}
+            w={"550px"}
+            h={"234px"}
+            position={"absolute"}
+            top={"0"}
+          >
             <Box textAlign={"center"} fontSize={"36px"} color={"#fff"}>
               Our Vision
             </Box>

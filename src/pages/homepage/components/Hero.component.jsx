@@ -1,5 +1,4 @@
 import { Box, Grid, Heading, Image } from "@chakra-ui/react";
-import "../styles/home.css";
 const Hero = () => {
   return (
     <>
@@ -30,7 +29,10 @@ const Hero = () => {
           </Box>
         </Box>
         <Box>
-          <Image src="/assets/images/homepage/robotHero.png"></Image>
+          <Image
+            src="/assets/images/homepage/robotHero.png"
+            w={"-webkit-fill-available"}
+          ></Image>
         </Box>
       </Grid>
     </>

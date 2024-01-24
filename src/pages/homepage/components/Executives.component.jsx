@@ -1,5 +1,4 @@
 import { Box, Grid, Heading, Image } from "@chakra-ui/react";
-import "../styles/home.css";
 const Hero = () => {
   return (
     <>

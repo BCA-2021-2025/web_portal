@@ -1,6 +1,6 @@
 import * as react from "react";
 
-import { Box, Stack, Heading, Container } from "@chakra-ui/react";
+import { Box, Stack, Heading, Container, Divider } from "@chakra-ui/react";
 import Hero from "../components/Hero.component";
 import TestimonialBox from "../../../components/custom_elements/TestimonialBox";
 import AboutUs from "../components/AboutUs.component";
@@ -26,6 +26,7 @@ const Home = () => {
       <Container maxW={"6xl"} mb={"118px"}>
         <Testimonials />
       </Container>
+      <Divider border={"5px solid #661616"} />
       <Container maxW={"6xl"} mb={"118px"}>
         <Footer />
       </Container>

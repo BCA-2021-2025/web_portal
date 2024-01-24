@@ -6,10 +6,10 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 const breakpoints = {
   breakpoints: {
     base: "0",
-    sm: "550px",
+    sm: "552px",
     md: "768px",
-    lg: "920px",
-    xl: "1220px",
+    lg: "992px",
+    xl: "1280px",
     "2xl": "1440px",
     "3xl": "1920px",
   },

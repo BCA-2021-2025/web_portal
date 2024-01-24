@@ -20,7 +20,7 @@ const Testimonials = () => {
       </HeadingBox>
 
       <Grid
-        gridTemplateColumns={"repeat(2,1fr)"}
+        gridTemplateColumns={{ base: "repeat(1,1fr)", xl: "repeat(2,1fr)" }}
         columnGap={"96px"}
         rowGap={"56px"}
       >
@@ -30,8 +30,8 @@ const Testimonials = () => {
             src={"/assets/images/profiles/nilaw.jpg"}
             m={"auto"}
           />
-          <TestimonialBox textAlign={"center"} color={"#fff"}>
-            <Box as="p" fontSize={"22px"}>
+          <TestimonialBox textAlign={"center"} color={"#fff"} m={"auto"}>
+            <Box as="p" fontSize={"20px"} >
               Just had to shout out to United IT Club – seriously unique! Sleek
               design, easy navigation, and killer content. From trends to tech
               talks, they've got the 411. Kudos to the team for creating this
@@ -51,8 +51,8 @@ const Testimonials = () => {
             src={"/assets/images/profiles/nilaw.jpg"}
             m={"auto"}
           />
-          <TestimonialBox textAlign={"center"} color={"#fff"}>
-            <Box as="p" fontSize={"22px"}>
+          <TestimonialBox textAlign={"center"} color={"#fff"} m={"auto"}>
+            <Box as="p" fontSize={"20px"} >
               Just had to shout out to United IT Club – seriously unique! Sleek
               design, easy navigation, and killer content. From trends to tech
               talks, they've got the 411. Kudos to the team for creating this
@@ -67,13 +67,13 @@ const Testimonials = () => {
         </Box>
 
         {/* Testimonial 3 */}
-        <Box gridColumn={"span 2"}>
+        <Box gridColumn={{ base: "span 1", xl: "span 2" }}>
           <ProfilePicCircle
             src={"/assets/images/profiles/nilaw.jpg"}
             m={"auto"}
           />
           <TestimonialBox textAlign={"center"} color={"#fff"} m="auto">
-            <Box as="p" fontSize={"22px"}>
+            <Box as="p" fontSize={"20px"} >
               Just had to shout out to United IT Club – seriously unique! Sleek
               design, easy navigation, and killer content. From trends to tech
               talks, they've got the 411. Kudos to the team for creating this
